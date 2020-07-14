@@ -34,4 +34,4 @@ jobs:
       uses: SonarSource/sonarcloud-github-action@v1.3
       with:
         # Set the sonar.projectBaseDir analysis property
-        projectBaseDir: /web/
+        projectBaseDir: ./web/
